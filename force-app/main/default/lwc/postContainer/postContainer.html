@@ -1,0 +1,23 @@
+<template>
+
+    <template if:true={posts}>
+
+        <lightning-card title="PAGE POST" icon-name="standard:event">
+            <div class="slds-p-horizontal_medium slds-wrap">
+                <template for:each={posts} for:item="post">
+                    <div  key={post.Id} class="slds-box slds-p-around_medium slds-m-bottom_medium">
+                        <c-post-card postdata={post} onrefreshpost={handleRefreshPost}></c-post-card>
+                    </div>
+                </template>
+            </div>
+        </lightning-card>
+    </template>
+
+    <template if:true={error}>
+        <lightning-card title="Error" icon-name="utility:error">
+            <div class="slds-p-horizontal_medium">
+                <p>{error}</p>
+            </div>
+        </lightning-card>
+    </template>
+</template>

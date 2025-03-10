@@ -1,0 +1,7 @@
+{
+    "value": {
+        "uploadUrlExpiresAt": 1741354251208,
+        "uploadUrl": "https://www.linkedin.com/dms-uploads/sp/v2/D5610AQEc7QZf0l7mtQ/uploaded-image/B56ZVrpteaGUAA-/0?ca=vector_ads&cn=uploads&iri=B01-86&sync=0&v=beta&ut=1lEQWjehbaQXE1",
+        "image": "urn:li:image:D5610AQEc7QZf0l7mtQ"
+    }
+}

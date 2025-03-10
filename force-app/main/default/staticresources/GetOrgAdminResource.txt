@@ -1,0 +1,13 @@
+{
+    "sub": "testuweuyureyuer",
+    "email_verified": true,
+    "name": "admin sample",
+    "locale": {
+        "country": "US",
+        "language": "en"
+    },
+    "given_name": "admin",
+    "family_name": "sample",
+    "email": "adminsample@test.com",
+    "picture": "https://media.licdn.com/dms/image/v2/C5103AQHXbiw7LqNhoQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1548408091128?e=1746662400&v=beta&t=Gh5IqJ_g44IVhBfKQ6DzJSDzg6Q38L6xcgsR7iqyk5I"
+}

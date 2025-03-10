@@ -1,0 +1,69 @@
+{
+    "vanityName": "rrgs",
+    "website": {
+        "localized": {
+            "en_US": "https://web.postman.co/"
+        },
+        "preferredLocale": {
+            "country": "US",
+            "language": "en"
+        }
+    },
+    "localizedName": "Ryan Useless Company",
+    "foundedOn": {
+        "year": 2025
+    },
+    "created": {
+        "actor": "urn:li:person:RQox56MjfR",
+        "time": 1741161423725
+    },
+    "groups": [],
+    "description": {
+        "localized": {
+            "en_US": "RRGS founded 2025 for Testing purposes"
+        },
+        "preferredLocale": {
+            "country": "US",
+            "language": "en"
+        }
+    },
+    "versionTag": "2318144954",
+    "defaultLocale": {
+        "country": "US",
+        "language": "en"
+    },
+    "organizationType": "NON_PROFIT",
+    "alternativeNames": [],
+    "specialties": [],
+    "staffCountRange": "SIZE_1",
+    "localizedSpecialties": [],
+    "name": {
+        "localized": {
+            "en_US": "Ryan Useless Company"
+        },
+        "preferredLocale": {
+            "country": "US",
+            "language": "en"
+        }
+    },
+    "primaryOrganizationType": "NONE",
+    "locations": [],
+    "lastModified": {
+        "actor": "urn:li:person:TzlrCBsru7",
+        "time": 1741181043680
+    },
+    "id": 106501655,
+    "localizedDescription": "RRGS founded 2025 for Testing purposes",
+    "autoCreated": false,
+    "localizedWebsite": "https://web.postman.co/",
+    "logoV2": {
+        "cropped": "urn:li:digitalmediaAsset:D4E0BAQHL8OXkt_x_Yg",
+        "original": "urn:li:digitalmediaAsset:D4E0BAQHL8OXkt_x_Yg",
+        "cropInfo": {
+            "x": 0,
+            "width": 0,
+            "y": 0,
+            "height": 0
+        }
+    }
+}

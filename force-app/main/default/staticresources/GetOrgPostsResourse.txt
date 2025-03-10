@@ -1,0 +1,34 @@
+{
+    "paging": {
+        "start": 0,
+        "count": 10,
+        "links": [],
+        "total": 4
+    },
+    "elements": [
+        {
+            "isReshareDisabledByAuthor": false,
+            "createdAt": 1741218541653,
+            "lifecycleState": "PUBLISHED",
+            "lastModifiedAt": 1741218547465,
+            "visibility": "PUBLIC",
+            "publishedAt": 1741218541653,
+            "author": "urn:li:organization:106501655",
+            "id": "urn:li:share:7303199893400035328",
+            "distribution": {
+                "feedDistribution": "MAIN_FEED",
+                "thirdPartyDistributionChannels": []
+            },
+            "content": {
+                "media": {
+                    "altText": "",
+                    "id": "urn:li:image:D5622AQGghxUNH_OvBA"
+                }
+            },
+            "commentary": "Sample Post",
+            "lifecycleStateInfo": {
+                "isEditedByAuthor": false
+            }
+        }
+    ]
+}

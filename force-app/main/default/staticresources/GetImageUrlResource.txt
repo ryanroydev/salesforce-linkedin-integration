@@ -1,0 +1,8 @@
+{
+    "downloadUrl": "https://media.licdn.com/dms/image/v2/D5622AQGghxUNH_OvBA/feedshare-shrink_2048_1536/B56ZVotmrnGoAs-/0/1741218541145?e=1744243200&v=beta&t=3bjLfr3h6TYnfwybgdivOdygIzamVLKDdMtmkB4TV78",
+    "owner": "urn:li:organization:106501655",
+    "id": "urn:li:image:D5622AQGghxUNH_OvBA",
+    "downloadUrlExpiresAt": 1744243200000,
+    "purpose": "FEED_POST",
+    "status": "AVAILABLE"
+}

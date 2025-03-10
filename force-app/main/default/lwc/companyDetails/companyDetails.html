@@ -1,0 +1,27 @@
+<template>
+    <lightning-card title="Company Details" icon-name="standard:account" variant="base">
+        <template if:true={company}>
+            <div class="slds-p-around_medium">
+
+                <div class="slds-text-heading_large slds-text-color_default slds-m-top_medium">
+                    {company.localizedName}
+                </div>
+
+                <div class="slds-m-top_medium">
+                    <a href={company.localizedWebsite} target="_blank" class="slds-button slds-button_neutral">Go to Website</a>
+                </div>
+
+                <div class="slds-m-top_medium">
+                    <p class="slds-text-title_bold">Description:</p>
+                    <p>{company.localizedDescription}</p>
+                    
+                    <p class="slds-text-title_bold">Type:</p>
+                    <p>{company.organizationType}</p>
+
+                    <p class="slds-text-title_bold">Founded On:</p>
+                    <p>{company.foundedOn.year}</p>
+                </div>
+            </div>
+        </template>
+    </lightning-card>
+</template>

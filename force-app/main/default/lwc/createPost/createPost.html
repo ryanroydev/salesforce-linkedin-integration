@@ -1,0 +1,44 @@
+<template>
+    <lightning-card title="START A POST">
+        <div class="slds-p-around_medium">
+            <!-- Text Area Box -->
+            <lightning-textarea 
+                value={postText}
+                onchange={handleInputChange}
+                placeholder="Write something not useless..."
+            ></lightning-textarea>
+            
+            <lightning-input
+                type="file"
+                label="Upload"
+                accept={acceptedFormats}
+                onchange={handleUploadFile}>
+            </lightning-input>
+            
+            <template if:true={imagePreviewUrl}>
+                <div class="slds-m-bottom_medium">
+                    <img 
+                        src={imagePreviewUrl} 
+                        alt="Image Preview" 
+                        class="slds-box slds-box_xx-small slds-m-top_small" 
+                        style="max-width: 200px; max-height: 200px; width: auto; height: auto;"
+                    />
+                    <p class="slds-text-body_regular slds-text-color_weak slds-m-top_small">
+                        <strong>Filename: </strong> <a href={imagePreviewName} target="_blank">{imagePreviewName}</a>
+                    </p>
+                </div>
+            </template>
+           
+            <!-- Post Button -->
+            <lightning-button 
+                label="Post" 
+                onclick={handlePostClick} 
+                class="slds-m-top_medium"
+            ></lightning-button>
+
+            <template  if:true={showSpinner}>
+                <lightning-spinner alternative-text = "Loading" variant="brand"></lightning-spinner>
+           </template>
+        </div>
+    </lightning-card>
+</template>
